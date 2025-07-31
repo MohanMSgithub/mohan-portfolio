@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mohan Shridhar </span>
             from <span className="purple"> Bengaluru, India.</span>
             <br />
-            I am currently looking for software developer role.
+            Looking for a Software Developer position to begin my professional journey.
             <br />
             I have completed BE (computer Science and Engineering)  at HKBKCE
             Bengaluru.

@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - Mohan Shridhar<br/>
-  <a href="https://Mohan.vercel.app/" target="_blank">Mohan Shridhar</a>
+  <a href="https://mohan-portfolio-teal.vercel.app/" target="_blank">Mohan Shridhar</a>
 </h2>
 
 <br/>

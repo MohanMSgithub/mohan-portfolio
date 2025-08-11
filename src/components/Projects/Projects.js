@@ -6,7 +6,7 @@ import Particle from "../Particle";
 // import Fitness from "../../Assets/Projects/FitnessPro.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
 import cookit from "../../Assets/Projects/cookit.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import Devtracker from "../../Assets/Projects/Devtracker.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -31,6 +31,16 @@ function Projects() {
               demoLink="https://cookit-e97n.onrender.com"
             />
           </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Devtracker}
+              isBlog={false}
+              title="Dev Tracker"
+              description="DevTrack is a developer productivity and learning tracker built with React.js and Spring Boot. It features GitHub login with JWT authentication, a Daily Logs system for tracking learning, building, and challenges, customizable rich-text Notes stored locally in the sql, and a Kanban board for task management. All data is persistently stored in MySQL and accessed via secure REST APIs"
+              ghLink="https://github.com/mohanmsgithub/Devtrack"
+              demoLink="https://devtrack-nine.vercel.app/"              
+            />
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
@@ -43,16 +53,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={FitnessPro}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+        
 
           <Col md={4} className="project-card">
             <ProjectCard
